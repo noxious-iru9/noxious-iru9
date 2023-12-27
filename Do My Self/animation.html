@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Css Animation</title>
+    <style>
+        .container {
+            background-color: blueviolet;
+            height: 556px;
+            width: 600px;
+
+        }
+
+        .box{
+            /* background-color: rgb(226, 43, 52); */
+            height: 60px;
+            width: 100px;
+            display: flex;
+            justify-content: center;
+            /* align-items: center;
+            animation-name:iruKaAnimation ;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            /* animation-direction: alternate; */
+            /* animation-delay: 1s;
+            animation-play-state: running; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: iruKaAnimation 3s ease-in-out 3s 1 forwards ;
+           
+
+
+        }
+      @keyframes iruKaAnimation {
+        from {
+background-color: rgb(124, 32, 32);
+        }
+        to{
+            background-color: yellow;
+           transform: translateX(1100px) ;
+        }
+      }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box  anim">
+            Box
+        </div>
+    </div>
+</body>
+</html>
